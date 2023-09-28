@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-peewee = "~=3.16.3"
-requests = "~=2.31.0"
-python-dotenv = "~=1.0.0"
-pyTelegramBotAPI = "~=4.13.0"
-PyMySQL = "==1.1.0"
+peewee = "==3.16.3"
+requests = "==2.31.0"
+python-dotenv = "==1.0.0"
+pytelegrambotapi = "==4.13.0"
+pymysql = "==1.1.0"
 cryptography = "==41.0.4"
 
 [dev-packages]
