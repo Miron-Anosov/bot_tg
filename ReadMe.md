@@ -24,7 +24,7 @@ Python Basic.
 
     Так же в любой момент доступны строковые команды и меню.
 
-    Тебования:
+    Требования:
         peewee~=3.16.3
         requests~=2.31.0
         python-dotenv~=1.0.0
@@ -34,17 +34,17 @@ Python Basic.
 
 
 ### Короткая инструкция перед началом использования.
-После клонирования репозитория 
-1. Скачиваем проект с Git репозитория. <br>
-Переходим в корень директории проекта. <br>
-Переходим в основную ветку main. <br>
-Активируем виртуальное окружение. <br>
-Устанавливаем необходимые библиотеки. <br>
-В коревом каталоге заходим в файл .env и вписываем ваши ключи от Тг в [BotFather](https://t.me/BotFather) и с [Сайта предоставляющий клюк данному API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-product-search). <br>
-Запускаем c Docker:
-![start.png](files_for_readme/start.png)
-Запускаем в IDE:
 
+1. Запуск: <br>
+
+Запускаем c Docker:
+![start.png](files_for_readme/start Docker.png)
+Запускаем в терминале:
+![start_2.png](files_for_readme/start_terminal.png)
+Запускаем в PyCharm:
+![start_PyCharm_step_1.png](files_for_readme/start_PyCharm_step_1.png) ![start_PyCharm_step_2.png](files_for_readme/start_PyCharm_step_2.png)
+В коревом каталоге, после клонирования репозитория, создаем файл .env и вписываем согласно [env.template](env.template). <br>
+Телеграм: [BotFather](https://t.me/BotFather) <br> API поискового ресурса: [API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-product-search).<br>
 
 2. Переходим в телеграм, в созданный вами бот и запускаем его командой /start или кнопкой в интерфейсе бота "Запустить".  <br>
 Бот удачно запущен, можно приступать к его тесту.
@@ -59,10 +59,9 @@ Python Basic.
   
 ### Ссылки:  
 [Документация ТЗ](files_for_readme/doc.pdf) <br>
-[Ссылка на BotFather](https://t.me/BotFather) <br>
-[Ссылка на Rapid API Hub](https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-product-search) <br>
 [Документация к pyTelegramBotAPI](https://pytba.readthedocs.io/ru/latest/install.html) <br>
 [Документация peewee](https://docs.peewee-orm.com/en/latest/) <br>
 [Документация Pipenv](https://docs.pipenv.org/) <br>
 [Документация Requests](https://requests.readthedocs.io/en/latest/) <br>
-[Документация PyMySQL](https://pymysql.readthedocs.io/en/latest/)
+[Документация PyMySQL](https://pymysql.readthedocs.io/en/latest/) <br>
+[Документация Docker](https://docs.docker.com/)
