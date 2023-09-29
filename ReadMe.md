@@ -43,7 +43,7 @@ Python Basic.
 ![start_2.png](files_for_readme/start_terminal.png)
 Запускаем в PyCharm:
 ![start_PyCharm_step_1.png](files_for_readme/start_PyCharm_step_1.png) ![start_PyCharm_step_2.png](files_for_readme/start_PyCharm_step_2.png)
-В коревом каталоге, после клонирования репозитория, создаем файл .env и вписываем согласно [env.template](env.template). <br>
+В корневом каталоге, после клонирования репозитория, создаем файл .env и вписываем согласно [env.template](env.template). <br>
 Телеграм: [BotFather](https://t.me/BotFather) <br> API поискового ресурса: [API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-product-search).<br>
 
 2. Переходим в телеграм, в созданный вами бот и запускаем его командой /start или кнопкой в интерфейсе бота "Запустить".  <br>
